@@ -30,14 +30,8 @@ module.exports = function(grunt) {
 
     // Configuration to be run (and then tested).
     pa11y: {
-      default_options: {
-        options: {
-        }
-      },
-      custom_options: {
-        options: {
-          url: 'google.com'
-        }
+      options: {
+        url: 'dev.scotiawealth.com/home'
       }
     },
 

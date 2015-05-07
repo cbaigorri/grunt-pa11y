@@ -10,10 +10,10 @@
 
 module.exports = function(grunt) {
 
+  var pa11y = require('pa11y');
+
   grunt.registerTask('pa11y', 'Automated accessibility testing with Pa11y.', function() {
 
-    // requires
-    var pa11y = require('pa11y');
     var done = this.async();
 
     // Merge task-specific and/or target-specific options with these defaults.
