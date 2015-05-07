@@ -36,7 +36,7 @@ module.exports = function(grunt) {
       },
       custom_options: {
         options: {
-          url: 'dev.scotiawealth.com/home'
+          url: 'google.com'
         }
       }
     },
