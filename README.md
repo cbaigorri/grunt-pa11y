@@ -122,5 +122,7 @@ In lieu of a formal styleguide, take care to maintain the existing coding style.
 
 ## Release History
 05-07-2015 Initial version 0.1.0 released.
+
 05-08-2015 Version 0.1.1 released.
+
 05-12-2015 Version 0.1.2 released.
