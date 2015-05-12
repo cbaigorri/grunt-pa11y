@@ -35,15 +35,15 @@ module.exports = function(grunt) {
       }
       , singleUrl: {
         options: {
-          url: 'dev.scotiawealth.com/home'
+          url: 'google.com'
         }
       }
       , multipleUrls: {
         options: {
           standard: 'WCAG2AA',
           url: [
-            'dev.scotiawealth.com/home',
-            'dev.scotiawealth.com/test'
+            'google.com',
+            'yahoo.com'
           ]
         }
       }
