@@ -70,13 +70,7 @@ Default value: `30000`
 
 The number of milliseconds before a timeout error occurs.
 
-#### options.port
-Type: `Number`
-Default value: `12300`
-
-The port the PhantomJS server should run on.
-
-#### options.port
+#### options.debug
 Type: `Boolean`
 Default value: `false`
 
@@ -85,7 +79,7 @@ Whether to report debug-level messages.
 ### Usage Examples
 
 #### Default Options
-In this example, the default options are used to do something with whatever. So if the `testing` file has the content `Testing` and the `123` file had the content `1 2 3`, the generated result would be `Testing, 1 2 3.`
+Running the task without any options will fail as the `url` is required.
 
 ```js
 grunt.initConfig({
@@ -108,9 +102,25 @@ grunt.initConfig({
   },
 });
 ```
+#### Multiple URLs
+In this example, you are testing the multiple urls against the WCAG2AAA standard.
+
+```js
+grunt.initConfig({
+  pa11y: {
+    options: {
+      url: ['google.com', 'yahoo.com'],
+      standard: 'WCAG2AAA'
+    }
+  },
+});
+```
+
 
 ## Contributing
 In lieu of a formal styleguide, take care to maintain the existing coding style. Add unit tests for any new or changed functionality. Lint and test your code using [Grunt](http://gruntjs.com/).
 
 ## Release History
-_(Nothing yet)_
+05-07-2015 Initial version 0.1.0 released.
+05-08-2015 Version 0.1.1 released.
+05-12-2015 Version 0.1.2 released.
