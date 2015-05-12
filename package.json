@@ -39,6 +39,8 @@
     "gruntplugin"
   ],
   "dependencies": {
-    "pa11y": "^1.6.3"
+    "async": "^0.9.0",
+    "pa11y": "^1.6.3",
+    "portscanner": "^1.0.0"
   }
 }

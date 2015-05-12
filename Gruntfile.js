@@ -30,8 +30,22 @@ module.exports = function(grunt) {
 
     // Configuration to be run (and then tested).
     pa11y: {
-      options: {
-        url: 'dev.scotiawealth.com/home'
+      default_options: {
+        options: {}
+      }
+      , singleUrl: {
+        options: {
+          url: 'dev.scotiawealth.com/home'
+        }
+      }
+      , multipleUrls: {
+        options: {
+          standard: 'WCAG2AA',
+          url: [
+            'dev.scotiawealth.com/home',
+            'dev.scotiawealth.com/test'
+          ]
+        }
       }
     },
 
