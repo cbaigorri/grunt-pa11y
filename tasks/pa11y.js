@@ -14,7 +14,7 @@ module.exports = function(grunt) {
       portscanner = require('portscanner'),
       async = require('async');
 
-  grunt.registerMultiTask('pa11y', 'Automated accessibility testing with Pa11y.', function() {
+  grunt.registerTask('pa11y', 'Automated accessibility testing with Pa11y.', function() {
 
     var done = this.async();
 
