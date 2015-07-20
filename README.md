@@ -126,3 +126,5 @@ In lieu of a formal styleguide, take care to maintain the existing coding style.
 05-08-2015 Version 0.1.1 released.
 
 05-12-2015 Version 0.1.2 released.
+
+07-20-2015 Version 0.1.3 released.
